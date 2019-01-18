@@ -1,0 +1,61 @@
+body {
+    background-color: bisque;
+}
+
+.header {
+    text-align: center;
+    padding: 0.4rem;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #7f423a;
+}
+
+
+#main-container {
+    height: 60vh;
+    width: 98vw;
+    margin: auto;
+}
+
+
+@media screen and (min-width: 700px) {
+
+    #main-container {
+        height: 65vh;
+        width: 50vw;
+        margin: auto;
+    }
+}
+
+.sub-container1 {
+    background-color: red;
+    height: 48%;
+    width: 48%;
+    display: inline-block;
+}
+
+.sub-container2 {
+    background-color: blue;
+    height: 48%;
+    width: 48%;
+    display: inline-block;
+}
+
+.sub-container3 {
+    background-color:green;
+    height: 48%;
+    width: 48%;
+    display: inline-block;
+}
+
+.sub-container4 {
+    background-color: hotpink;
+    height: 48%;
+    width: 48%;
+    display: inline-block;
+}
+
+.input {
+    text-align: center;
+    padding-top: 4px;
+}
